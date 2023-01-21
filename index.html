@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&family=Sen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+    <title>Blog</title>
+</head>
+<body>
+    <header class="mainHeader">
+        <img src="./ressources/icons/finsweet.svg" alt="Logo Finsweet" class="mainHeader__img">
+
+        <button class="mobileNavToggle" aria-controls="primary-navigation" aria-expanded="false" data-scroll="false">
+            <span class="toggle__line"></span>
+            <span class="toggle__line"></span>
+            <span class="toggle__line"></span>
+        </button>
+        <nav class="navBar">
+            <ul id="primary-navigation" data-visible="false" class="navBar__list">
+                <li class="navBar__list__items"><a href="" class="navBar__list__links">Home</a></li>
+                <li class="navBar__list__items"><a href="" class="navBar__list__links">Blog</a></li>
+                <li class="navBar__list__items"><a href="" class="navBar__list__links">About Us</a></li>
+                <li class="navBar__list__items"><a href="" class="navBar__list__links">Contact Us</a></li>
+                <li class="navBar__list__items"><a href="" class="navBar__list__links subscribe">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero__CTA">
+            <p class="hero__post">Posted on <span>Startup</span></p>
+            <p class="hero__title">Step-by-step guide to choosing great font pairs</p>
+            <p class="hero__autor">By <span>James West</span> | May 23, 2022</p>
+            <p class="hero__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            <button class="button">Read More <span>></span></button>
+        </div>
+    </section>
+
+    <section class="posts">
+        <div class="posts__mainPart">
+            <div class="posts__mainTitle">
+                <h2 class="subtitles">
+                    Featured Post
+                </h2>
+            </div>
+            <div class="posts__mainItem">
+                <img src="./ressources/img/pexels-zachary-debottis-1838640.jpg" alt="Building view">
+                <p>By <span class="autor">John Doe</span> | May 23, 2022</p>
+                <h3 class="thirdtitles">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h3>
+                <p class="posts__mainItem--description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                <button class="button">Read More <span>></span></button>
+            </div>
+        </div>
+        <div class="posts__secondaryPart">
+            <div class="posts__secondaryTitles">
+                <h2 class="subtitles">
+                    All Posts
+                </h2>
+                <a href="">View All</a>
+            </div>
+            <div class="posts__list">
+                <div class="posts__list__items">
+                    <header>By <span>John Deo</span> | Aug 23,2021</header>
+                    <h4 class="fourthTitles">8 Figma design systems that you can download for free today.</h4>
+                </div>
+                <div class="posts__list__items">
+                    <header>By <span>John Deo</span> | Aug 23,2021</header>
+                    <h4 class="fourthTitles">8 Figma design systems that you can download for free today.</h4>
+                </div>
+                <div class="posts__list__items">
+                    <header>By <span>John Deo</span> | Aug 23,2021</header>
+                    <h4 class="fourthTitles">8 Figma design systems that you can download for free today.</h4>
+                </div>
+                <div class="posts__list__items">
+                    <header>By <span>John Deo</span> | Aug 23,2021</header>
+                    <h4 class="fourthTitles">8 Figma design systems that you can download for free today.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__about">
+        <div class="about__effect"></div>
+        <div class="about">
+            <div class="about__us">
+                <header>
+                    <h1>
+                        About Us
+                    </h1>
+                </header>
+                <h2>
+                    We are a community of content writers who share their learnings
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a href="#" class="fancy">
+                    Read More <span class="aEffect">></span>
+                </a>    
+            </div>
+            <div class="about__mission">
+                <header>
+                    <h1>
+                        Our Mission
+                    </h1>
+                </header>
+                <h2>
+                    Creating valuable content for creatives all around the world
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <h2 class="categories__title">
+            Choose a category 
+        </h2>
+        <div class="categories__container">
+            <ul class="categories__list">
+                <li class="categories__items">
+                    <header class="categories__items--header">
+                        <img src="./ressources/icons/business.svg" alt="building icon"><h2>Business</h2>
+                    </header>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sunt sed, voluptatibus culpa praesentium nihil harum ipsa nisi accusantium dignissimos.</p>
+                </li>
+                <li class="categories__items">
+                    <header class="categories__items--header">
+                        <img src="./ressources/icons/startup.svg" alt="starship icon"><h2>Startup</h2>
+                    </header>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sunt sed, voluptatibus culpa praesentium nihil harum ipsa nisi accusantium dignissimos.</p>
+                </li>
+                <li class="categories__items">
+                    <header class="categories__items--header">
+                        <img src="./ressources/icons/economy.svg" alt="economy icon"><h2>Economy</h2>
+                    </header>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio sunt sed, voluptatibus culpa praesentium nihil harum ipsa nisi accusantium dignissimos.</p>
+                </li>
+                <li class="categories__items">
+                    <header class="categories__items--header">
+                        <img src="./ressources/icons/technology.svg" alt="head of droid icon"><h2>Technology</h2>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deserunt sit cupiditate delectus minima. Ducimus iusto repudiandae velit et magni.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="story">
+        <div class="story__container">
+            <img src="./ressources/img/pexels-buro-millennial-1438084.jpg" alt="deux womens talking to each other in front of a building" class="story__img">
+            <div class="story__discover">
+                <h3>Why we started</h3>
+                <h2>It started out as a simple idea and evolved into our passion</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                <a href="#" class="button story__CTA">Discover our story ></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="authors">
+        <h2>List of Authors</h2>
+        <div class="authors__list">
+            <div class="authors__items">
+                <img src="./ressources/authors/pexels-anastasia-shuraeva-5704849.png" alt="Author picture">
+                <h3>Dianne Russell</h3>
+                <p>Content Writer @Company</p>
+                <div class="authors__items--links">
+                    <a href="#">
+                        <img src="./ressources/icons/facebook.svg" alt="Facebook icon">
+                    </a>
+                    <a href="#">
+                        <img src="./ressources/icons/twitter.svg" alt="Twitter icon">
+                    </a>
+                    <a href="#">
+                        <img src="./ressources/icons/instagram.svg" alt="Instagram icon">
+                    </a>
+                    <a href="#">
+                        <img src="./ressources/icons/linkedin.svg" alt="Linkedin icon">
+                    </a>
+                </div>
+            </div>
+            <div class="authors__items">
+                <img src="./ressources/authors/pexels-keira-burton-6147118-icon.png" alt="Author picture">
+                <h3>Floyd Miles</h3>
+                <p>Content Writer @Company</p>
+                <div class="authors__items--links">
+                    <a href="#">
+                        <img src="./ressources/icons/facebook.svg" alt="Facebook icon">
+                    </a>
+                    <a href="#">
+                        <img src="./ressources/icons/twitter.svg" alt="Twitter icon">
+                    </a>
+                    <a href="#">
+                        <img src="./ressources/icons/instagram.svg" alt="Instagram icon">
+                    </a>
+                    <a href="#">
+                        <img src="./ressources/icons/linkedin.svg" alt="Linkedin icon">
+                    </a>
+                </div>
+            </div>
+            <div class="authors__items">
+                <img src="./ressources/authors/pexels-dziana-hasanbekava-7626613-icon.png" alt="Author picture">
+                <h3>Jenny Wilson</h3>
+                <p>Content Writer @Company</p>
+                <div class="authors__items--links">
+                    <a href="#">
+                        <img src="./ressources/icons/facebook.svg" alt="Facebook icon">
+                    </a>
+                    <a href="#">
+                        <img src="./ressources/icons/twitter.svg" alt="Twitter icon">
+                    </a>
+                    <a href="#">
+                        <img src="./ressources/icons/instagram.svg" alt="Instagram icon">
+                    </a>
+                    <a href="#">
+                        <img src="./ressources/icons/linkedin.svg" alt="Linkedin icon">
+                    </a>
+                </div>
+            </div>
+            <div class="authors__items">
+                <img src="./ressources/authors/pexels-vazhnik-7562313-icon.png" alt="Author picture">
+                <h3>Alexander Morales</h3>
+                <p>Content Writer @Company</p>
+                <div class="authors__items--links">
+                    <a href="#">
+                        <img src="./ressources/icons/facebook.svg" alt="Facebook icon">
+                    </a>
+                    <a href="#">
+                        <img src="./ressources/icons/twitter.svg" alt="Twitter icon">
+                    </a>
+                    <a href="#">
+                        <img src="./ressources/icons/instagram.svg" alt="Instagram icon">
+                    </a>
+                    <a href="#">
+                        <img src="./ressources/icons/linkedin.svg" alt="Linkedin icon">
+                    </a>
+                </div>
+        </div>
+    </section>
+
+    <section class="feature">
+        <div class="feature__by">
+            <p class="feature__by--we">We are</p>
+            <p class="feature__by--title">Featured in</p>
+        </div>
+        <div class="feature__items">
+            <img src="./ressources/partners/logoipsum.svg" alt="Lorem Ipsum society Logo">
+            <img src="./ressources/partners/logoipsum2.svg" alt="Lorem Ipsum society Logo">
+            <img src="./ressources/partners/logoipsum3.svg" alt="Lorem Ipsum society Logo">
+            <img src="./ressources/partners/logoipsum4.svg" alt="Lorem Ipsum society Logo">
+            <img src="./ressources/partners/logoipsum5.svg" alt="Lorem Ipsum society Logo">
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="testimonials__main">
+            <p class="testimonials__main__subtitles">Testimonials</p>
+            <h2>What people say about our blog</h2>
+            <p class="testimonials__main__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </div>
+        <div class="testimonials__border">
+
+        </div>
+        <div class="testimonials__feedback" aria-label="Feedback of society">
+            <div class="testimonials__feedback__content">
+                <ul data-slides>
+                    <li class="testimonials__feedback__slide" data-active>
+                        <p class="testimonials__feedback__message">
+                            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+                        </p>
+                        <div class="testimonials__feedback__authors">
+                            <img src="./ressources/authors/pexels-anna-shvets-5262459-icon.png" alt="" class="testimonials__feedback__authors__img">
+                            <div class="testimonials__feedback__authors--location">
+                                <h3>
+                                    Jonathan Vallem
+                                </h3> 
+                                <p>
+                                    New York, USA
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="testimonials__feedback__slide">
+                        <p class="testimonials__feedback__message">
+                            Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus
+                        </p>
+                        <div class="testimonials__feedback__authors">
+                            <img src="./ressources/authors/pexels-dziana-hasanbekava-7626613-icon.png" alt="" class="testimonials__feedback__authors__img">
+                            <div class="testimonials__feedback__authors--location">
+                                <h3>
+                                    Keyra Lee
+                                </h3> 
+                                <p>
+                                    Berlin, Germany
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="testimonials__feedback__slide">
+                        <p class="testimonials__feedback__message">
+                            In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.
+                        </p>
+                        <div class="testimonials__feedback__authors">
+                            <img src="./ressources/authors/pexels-keira-burton-6147118-icon.png" alt="" class="testimonials__feedback__authors__img">
+                            <div class="testimonials__feedback__authors--location">
+                                <h3>
+                                    Trevor Dalinga
+                                </h3> 
+                                <p>
+                                    Roma, Italy
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="testimonials__feedback__footer">
+            <div class="testimonials__feedback__buttons">
+                <button class="testimonials__buttons prev" data-carousel-button="prev">&#10578;</button>
+                <button class="testimonials__buttons next" data-carousel-button="next">&#10579;</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="join">
+        <h2>
+            Join our team to be a part of our story
+        </h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+        </p>
+        <a href="#" class="button">Join Now</a>
+    </section>
+
+    <footer class="mainFooter">
+        <header class="mainFooter__header">
+            <img src="./ressources/icons/finsweet.svg" alt="Logo Finsweet" class="mainHeader__img">
+            <nav class="mainFooter__navBar">
+                <ul class="mainFooter__navBar__list">
+                    <li class="mainFooter__navBar__list__items"><a href="" class="mainFooter__navBar__list__links">Home</a></li>
+                    <li class="mainFooter__navBar__list__items"><a href="" class="mainFooter__navBar__list__links">Blog</a></li>
+                    <li class="mainFooter__navBar__list__items"><a href="" class="mainFooter__navBar__list__links">About Us</a></li>
+                    <li class="mainFooter__navBar__list__items"><a href="" class="mainFooter__navBar__list__links">Contact Us</a></li>
+                    <li class="mainFooter__navBar__list__items"><a href="" class="mainFooter__navBar__list__links">Privacy Policy</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="mainFooter__body">
+            <h2>Subscribe to our newsletter to get latest updates and news</h2>
+            <form action="mailto:info@w3docs.com" method="get" enctype="text/plain" class="footer__form">
+                <input type="text" placeholder="Enter Your Email" required class="footer__form__input">
+                <input type="submit" name="submit" value="Subscribe" class="button" />
+            </form>
+        </div>
+        <footer class="mainFooter__footer">
+            <div class="mainFooter__address">
+                <p>Finstreet 118 2561 Fintown</p>
+                <p>Hello@finsweet.com +1 020 7993 2905</p>
+            </div>
+            <div class="mainFooter__medias">
+                <a href="">
+                    <img src="./ressources/icons/facebookgrey.svg" alt="Facebook icon">
+                </a>
+                <a href="">
+                    <img src="./ressources/icons/twittergrey.svg" alt="Twitter icon">
+                </a>
+                <a href="">
+                    <img src="./ressources/icons/instagramgrey.svg" alt="Instagram icon">
+                </a>
+                <a href="">
+                    <img src="./ressources/icons/linkedingrey.svg" alt="Linkedin icon">
+                </a>
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>
