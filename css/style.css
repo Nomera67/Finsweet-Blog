@@ -769,7 +769,8 @@ body {
   }
   .navBar__list__links {
     color: #232536;
-    font-size: clamp(30px, 5.25vmin, 2.25rem);
+    font-size: clamp(24px, 4.75vmin, 1.75rem);
+    text-align: center;
   }
   .navBar__list .subscribe {
     background: transparent;
@@ -782,10 +783,7 @@ body {
   }
 
   .subscribe {
-    background-color: transparent;
-    color: #FFFFFF;
-    padding: 0;
-    border: none;
+    display: none;
   }
 
   .mobileNavToggle {
@@ -947,6 +945,9 @@ body {
 
   .mainFooter__navBar__list {
     gap: 10px;
+    height: 90%;
+    margin: 5px 10px;
+    justify-content: space-between;
   }
   .mainFooter__navBar__list > li {
     text-align: center;
@@ -957,6 +958,11 @@ body {
   }
   .testimonials__feedback__authors > img {
     display: none;
+  }
+
+  .navBar__list {
+    gap: 20px;
+    padding: 100px;
   }
 }
 

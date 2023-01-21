@@ -800,7 +800,8 @@ body{
         }
         &__links{
             color: $black;
-            font-size: $subTitleSize;
+            font-size: $thirdTitleSize;
+            text-align: center;
         }
         & .subscribe{
             background: transparent;
@@ -813,10 +814,7 @@ body{
         transform: translateY(0%);
     }
     .subscribe{
-        background-color: transparent;
-        color: $white;
-        padding: 0;
-        border: none;
+        display: none;
     }
 
     .mobileNavToggle{
@@ -992,7 +990,9 @@ body{
     }
     .mainFooter__navBar__list{
         gap: 10px;
-
+        height: 90%;
+        margin: 5px 10px;
+        justify-content: space-between;
         &>li{
             text-align: center;
         }
@@ -1003,99 +1003,9 @@ body{
             display: none;
         }
     }
+    .navBar__list{
+        gap: 20px;
+        padding: 100px;
+                
+    }
 }
-
-// &>h3{
-//     font-size: $fifthTitleSize;
-//     font-weight: 700;
-// }
-// &>p{
-//     font-family: $secondaryFont;
-//     font-size: $sixthTitleSize;
-//     font-weight: 400;
-//     color: $mediumGrey;
-// }
-
-// .mainFooter{
-//     background-color: $black;
-//     height: 500px;
-//     padding: 60px 80px;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-between;
-//     &__header{
-//         display: flex;
-//         flex-direction: row;
-//         align-items: center;
-//         justify-content: space-between;
-//     }
-//     &__body{
-//         color: $white;
-//         background: $darkGrey;
-//         display: flex;
-//         flex-direction: row;
-//         align-items: center;
-//         justify-content: space-around;
-//         height: 256px;
-//         padding: 80px 60px;
-//         &>h2{
-//             font-size: $thirdTitleSize;
-//             font-weight: 700;
-//             width: 30%;
-//         }
-//     }
-//     &__footer{
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: space-between;
-//         align-items: center;
-//         color: $white;
-//     }
-//     &__medias{
-//         display: flex;
-//         flex-direction: row;
-//         align-items: center;
-//         gap: 25px;
-//         &>a{
-//             text-decoration: none;
-//         }
-//     }
-//     &__navBar{
-//         &__list{
-//             list-style-type: none;
-//             display: flex;
-//             justify-content: flex-end;
-//             font-size: $sixthTitleSize;
-//             flex-wrap: wrap;
-//             &__items{
-//                 &:not(:last-child){
-//                     margin-right: 1.5rem;
-//                 }
-//             }
-//             &__links{
-//                 color: $lightGrey;
-//                 text-decoration: none;
-//                 border-bottom: 1px solid transparent;
-//                 transition: all 0.2s ease-in-out;
-//                 &:hover{
-//                     border-bottom: 1px solid $white;
-//                 }
-//             }
-//         }
-//     }
-// }
-// .footer__form{
-//     display: flex;
-//     flex-direction: row;
-//     align-items: center;
-//     gap: 24px;
-//     &__input{
-//         font-size: 1rem;
-//         font-weight: bold;
-//         color: $white;
-//         border: 1px solid $greyishWhite;
-//         background: $darkGrey;
-//         width: fit-content;
-//         padding: 16px 48px 16px 48px;
-//     }
-// }
